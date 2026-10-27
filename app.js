@@ -1,7 +1,7 @@
 /* Kalamaia customer registration, order submission and tracking.
    Reads use JSONP; customer/order writes use a hidden form POST to Apps Script. */
 const CONFIG = {
-  apiUrl: "https://script.google.com/macros/s/AKfycbwX_k8uad64KW3JVSbgox0PXTfYdKXKMm-0wil9Ag67W4dQDyeFmrjoPltumxApitLq/exec",
+  apiUrl: "https://script.google.com/macros/s/AKfycbyMeRlzGlvvwTm7e1XxHBlaZLVYa6_m0oSLnzNrHD2Bb8FCHnVSJfHrukk19FBxdXNr/exec",
   currency: "IDR"
 };
 const $ = (s, root=document) => root.querySelector(s);

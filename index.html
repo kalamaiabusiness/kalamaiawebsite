@@ -4,16 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f7f4ed">
-  <title>KALA MAIA — Order, simply.</title>
-  <meta name="description" content="A thoughtful order and fulfillment portal for small businesses.">
+  <title>Kalamaia — Order, simply.</title>
+  <meta name="description" content="A thoughtful place to register, place orders, and track their progress with Kalamaia.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="announcement">A calmer way to manage every order <span>✳</span></div>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="KALA MAIA home"><span class="brand-mark">K</span><span>kala maia<span class="brand-dot">.</span></span></a>
+    <a class="brand" href="#home" aria-label="Kalamaia home"><span class="brand-mark">K</span><span>Kalamaia<span class="brand-dot">.</span></span></a>
     <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
     <nav id="mainNav">
       <a href="#how">How it works</a><a href="#services">What you can do</a><a href="#faq">FAQ</a>
@@ -26,55 +27,40 @@
       <div class="hero-copy">
         <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR ORDER, UNDER CONTROL</div>
         <h1>Good things<br>are <em>on their way.</em></h1>
-        <p class="hero-lede">One thoughtful place to place an order, follow its journey, and handle the little details along the way.</p>
-        <div class="hero-actions"><button class="button button-dark" data-open="order">Place an order <span>↗</span></button><button class="button button-light" data-open="track">Track an order <span>→</span></button></div>
-        <div class="trust-row"><div class="avatar-stack"><span>A</span><span>M</span><span>J</span></div><p><strong>Made for real-life workflows</strong><br><small>Simple for customers. Clear for teams.</small></p></div>
+        <p class="hero-lede">Register once, place your order in a few steps, and check its progress whenever you need.</p>
+        <div class="hero-actions"><button class="button button-dark" data-open="register">Create customer ID <span>↗</span></button><button class="button button-light" data-open="track">Track an order <span>→</span></button></div>
+        <div class="trust-row"><div class="avatar-stack"><span>A</span><span>M</span><span>J</span></div><p><strong>Made for real-life workflows</strong><br><small>Simple for customers. Clear for the Kalamaia team.</small></p></div>
       </div>
       <div class="hero-art">
-        <div class="sun-shape"></div>
-        <div class="art-label label-top">PACKED WITH CARE <span>✳</span></div>
-        <div class="parcel parcel-back"></div><div class="parcel parcel-front"><div class="parcel-tape"></div><div class="parcel-stamp">PN<br><small>GOOD<br>THINGS</small></div><div class="parcel-line"></div></div>
-        <div class="leaf leaf-one"></div><div class="leaf leaf-two"></div>
-        <div class="floating-note"><span class="note-icon">✓</span><div><strong>Order received</strong><small>You're all set.</small></div></div>
-        <div class="art-label label-bottom">A LITTLE MORE PEACE OF MIND <span>↗</span></div>
+        <div class="sun-shape"></div><div class="art-label label-top">PACKED WITH CARE <span>✳</span></div>
+        <div class="parcel parcel-back"></div><div class="parcel parcel-front"><div class="parcel-tape"></div><div class="parcel-stamp">K<br><small>GOOD<br>THINGS</small></div><div class="parcel-line"></div></div>
+        <div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="floating-note"><span class="note-icon">✓</span><div><strong>Order received</strong><small>You're all set.</small></div></div><div class="art-label label-bottom">A LITTLE MORE PEACE OF MIND <span>↗</span></div>
       </div>
     </section>
 
-    <section class="ticker"><div>PLACE AN ORDER <span>✳</span> CHECK THE STATUS <span>✳</span> REQUEST A REFUND <span>✳</span> SHIP WITH CONFIDENCE <span>✳</span> PLACE AN ORDER <span>✳</span></div></section>
+    <section class="ticker"><div>CREATE YOUR CUSTOMER ID <span>✳</span> PLACE AN ORDER <span>✳</span> CHECK THE STATUS <span>✳</span> KEEP EVERYTHING IN ONE PLACE <span>✳</span> CREATE YOUR CUSTOMER ID <span>✳</span></div></section>
 
-    <section class="intro wrap" id="how">
-      <div><div class="eyebrow">LESS BACK-AND-FORTH</div><h2>From “just ordered”<br>to <em>all taken care of.</em></h2></div>
-      <p>Everything customers need, with fewer messages to chase and fewer details to lose. Start with an order, and keep every next step in one place.</p>
-    </section>
+    <section class="intro wrap" id="how"><div><div class="eyebrow">LESS BACK-AND-FORTH</div><h2>From “just ordered”<br>to <em>all taken care of.</em></h2></div><p>Start with your customer profile. Then submit order details and use your customer ID plus order reference to follow each order.</p></section>
 
     <section class="service-grid wrap" id="services">
-      <article class="service-card card-peach"><div class="card-icon">↗</div><div class="card-number">01 / ORDER</div><h3>Make it official.</h3><p>Send your order details, select items, and see your estimated total before submitting.</p><button class="text-link" data-open="order">Place an order <span>→</span></button><div class="mini-order"><div class="mini-row"><span>Everyday tote</span><b>Rp 125.000</b></div><div class="mini-row"><span>Gift wrap</span><b>Rp 15.000</b></div><div class="mini-total"><span>Estimated total</span><b>Rp 140.000</b></div></div></article>
-      <article class="service-card card-green"><div class="card-icon">◎</div><div class="card-number">02 / TRACK</div><h3>Know where things stand.</h3><p>Look up an order and see its latest status, shipment details, and tracking reference.</p><button class="text-link" data-open="track">Track an order <span>→</span></button><div class="timeline"><div class="timeline-item done"><i>✓</i><span><b>Order received</b><small>We have your details</small></span></div><div class="timeline-item done"><i>✓</i><span><b>Preparing</b><small>Getting everything ready</small></span></div><div class="timeline-item"><i>3</i><span><b>On its way</b><small>Tracking added at dispatch</small></span></div></div></article>
-      <article class="service-card card-lilac"><div class="card-icon">↺</div><div class="card-number">03 / SUPPORT</div><h3>Handle the unexpected.</h3><p>Request a shipping arrangement or submit a refund request for the team to review.</p><button class="text-link" data-open="support">Get order support <span>→</span></button><div class="support-note"><span>✳</span><div><b>Request received</b><small>Our team will review the details.</small></div></div></article>
+      <article class="service-card card-peach"><div class="card-icon">↗</div><div class="card-number">01 / REGISTER</div><h3>Your details, once.</h3><p>Enter your name, WhatsApp number, and full address. Kalamaia generates your customer ID automatically.</p><button class="text-link" data-open="register">Create customer ID <span>→</span></button><div class="mini-order"><div class="mini-row"><span>Example</span><b>Agung</b></div><div class="mini-row"><span>WhatsApp ending</span><b>6789</b></div><div class="mini-total"><span>Customer ID</span><b>Agung6789</b></div></div></article>
+      <article class="service-card card-green"><div class="card-icon">◎</div><div class="card-number">02 / ORDER & TRACK</div><h3>Know where things stand.</h3><p>Submit what you want to order, then track its latest status using your customer ID and order reference.</p><button class="text-link" data-open="order">Place an order <span>→</span></button><div class="timeline"><div class="timeline-item done"><i>✓</i><span><b>Order received</b><small>Your order has been recorded</small></span></div><div class="timeline-item"><i>2</i><span><b>Being prepared</b><small>Status updated by the team</small></span></div><div class="timeline-item"><i>3</i><span><b>Shipped</b><small>Tracking details can be added</small></span></div></div></article>
+      <article class="service-card card-lilac"><div class="card-icon">↺</div><div class="card-number">03 / SPREADSHEET</div><h3>One clear record.</h3><p>Customer profiles and order submissions are saved in Google Sheets, ready for the team to review and export.</p><button class="text-link" data-open="track">Find my order <span>→</span></button><div class="support-note"><span>✳</span><div><b>Simple order records</b><small>One row per order, with a unique reference.</small></div></div></article>
     </section>
 
-    <section class="quote-section wrap"><div class="quote-mark">“</div><blockquote>A good customer experience isn't one big thing. It's all the little things, made easier.</blockquote><div class="quote-rule"></div><p>THE KALA MAIA PROMISE</p></section>
-
-    <section class="cta wrap"><div><div class="eyebrow">YOUR NEXT STEP STARTS HERE</div><h2>Let's get things<br><em>moving.</em></h2><p>Start an order or check in on one that's already underway.</p></div><div class="cta-buttons"><button class="button button-dark" data-open="order">Start an order <span>↗</span></button><button class="button button-light" data-open="track">Find my order <span>→</span></button></div><div class="cta-flower">✳</div></section>
+    <section class="quote-section wrap"><div class="quote-mark">“</div><blockquote>A good customer experience isn't one big thing. It's all the little things, made easier.</blockquote><div class="quote-rule"></div><p>THE KALAMAIA PROMISE</p></section>
+    <section class="cta wrap"><div><div class="eyebrow">YOUR NEXT STEP STARTS HERE</div><h2>Let's get things<br><em>moving.</em></h2><p>Create your customer ID before placing your first order.</p></div><div class="cta-buttons"><button class="button button-dark" data-open="register">Create customer ID <span>↗</span></button><button class="button button-light" data-open="track">Track my order <span>→</span></button></div><div class="cta-flower">✳</div></section>
   </main>
 
-  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">K</span><span>kala maia<span class="brand-dot">.</span></span></a><p>A small step toward smoother order days.</p><div><a href="#faq">FAQ</a><a href="#" data-open="support">Order support</a><span>© <span id="year"></span> KALA MAIA</span></div></footer>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">K</span><span>Kalamaia<span class="brand-dot">.</span></span></a><p>A small step toward smoother order days.</p><div><a href="#faq">FAQ</a><a href="#" data-open="support">Order support</a><span>© <span id="year"></span> Kalamaia</span></div></footer>
 
-  <div class="modal-backdrop" id="modalBackdrop" hidden>
-    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <button class="modal-close" id="modalClose" aria-label="Close dialog">×</button>
-      <div class="modal-eyebrow">KALA MAIA CUSTOMER PORTAL</div><h2 id="modalTitle">Place an order</h2><p class="modal-subtitle" id="modalSubtitle">Tell us what you need. We'll take it from here.</p>
-      <div id="modalContent"></div>
-      <p class="privacy-note">Please don't submit payment card details or passwords here.</p>
-    </section>
-  </div>
+  <div class="modal-backdrop" id="modalBackdrop" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close dialog">×</button><div class="modal-eyebrow">KALAMAIA CUSTOMER PORTAL</div><h2 id="modalTitle">Create customer ID</h2><p class="modal-subtitle" id="modalSubtitle">Add your details to get started.</p><div id="modalContent"></div><p class="privacy-note">Your contact details and address are stored in the connected Google Sheet. Only submit information needed to fulfil your order.</p></section></div>
 
   <section class="faq wrap" id="faq"><div class="eyebrow">A FEW QUICK ANSWERS</div><h2>Good to <em>know.</em></h2>
-    <details><summary>Is this a live ordering system yet?</summary><p>This starter includes a working demo interface. Connect your deployed Google Apps Script endpoint and configure the spreadsheet before accepting real orders.</p></details>
-    <details><summary>How do I track a shipment?</summary><p>Open “Track an order” and enter your order reference and the matching email address. The live backend should only return orders when both values match.</p></details>
-    <details><summary>How are refund requests handled?</summary><p>Requests are submitted for review. The team should approve or reject them in the admin workflow; this portal does not automatically issue money.</p></details>
+    <details><summary>How is my customer ID generated?</summary><p>The ID combines your first name and the last four digits of your WhatsApp number, for example Agung6789. If that ID already exists, the system adds a short suffix to keep IDs unique.</p></details>
+    <details><summary>How do I track an order?</summary><p>After placing an order, save the order reference shown on screen. Use that reference together with your customer ID to see the latest status and shipment tracking details.</p></details>
+    <details><summary>Where are customer and order details stored?</summary><p>After the Google Apps Script backend is configured and deployed, customer profiles and orders are saved to separate tabs in Google Sheets. The team can download the sheet as Excel or CSV.</p></details>
   </section>
-
   <script src="app.js"></script>
 </body>
 </html>
